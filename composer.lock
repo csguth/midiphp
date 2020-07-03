@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "603e0dc2394ff8a25ab53249b9c03b71",
+    "packages": [
+        {
+            "name": "stdtabs/phptabs",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stdtabs/phptabs.git",
+                "reference": "cafa7db21e727c20c3b8207efd034949c94729af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stdtabs/phptabs/zipball/cafa7db21e727c20c3b8207efd034949c94729af",
+                "reference": "cafa7db21e727c20c3b8207efd034949c94729af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTabs\\": "src/PhpTabs/",
+                    "PhpTabsTest\\": "test/PhpTabs/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1+"
+            ],
+            "description": "A PHP library for reading, writing and rendering Guitar Pro and MIDI files",
+            "homepage": "https://stdtabs.github.io/",
+            "keywords": [
+                "guitar",
+                "midi",
+                "music",
+                "tablature",
+                "tabs"
+            ],
+            "time": "2018-12-09T18:49:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
